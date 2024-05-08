@@ -5,17 +5,18 @@ import TodoListItem from "./TodoListItem"
 
 import axios from "axios"
 import TodoListInput from "./TodoListInput";
+import { getToken } from "../utility/local-storage";
 
 
 
 function TodoList() {
+
   const navigate =useNavigate();
-  const tokenStr= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzE1MTUwODQzLCJleHAiOjE3MTUyMzcyNDN9.yedBSFIj_GkHr5td1Q8PMfiojnmXHSp0QDl3e7SQF8c"
+  const tokenStr= getToken();
   const [todos, setTodos] = useState([])
 
   
   useEffect(()=>{
-    
     fetchAllData()
   },[])
 

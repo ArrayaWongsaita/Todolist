@@ -10,8 +10,10 @@ import { useState } from "react";
 
 
 function Login() {
+  const navigate =useNavigate();
   const [email,setmail] = useState("")
   const [Password,SetPassword] = useState("")
+  
 
 
   const loginUser = async () => {
@@ -22,6 +24,7 @@ function Login() {
     );
     console.log(response.data.token)
     storeToken(response.data.token);
+    navigate('/TodoList')
   };
 
   // const navigate =useNavigate();
@@ -38,8 +41,8 @@ function Login() {
         <form action="" className="h-full gap-16 flex flex-col  justify-between">
 
         <h1 className="text-white text-5xl font-bold">Welcome</h1>
-        <input value={email} onChange={(e)=>setmail(e.target.value)}type="text" className=" text-xl bg-gray-950" placeholder="username"/>
-        <input value={Password} onChange={(e)=>SetPassword(e.target.value)}type="text" className="text-xl bg-gray-950 text-gray-600 " placeholder="password" />
+        <input value={email} onChange={(e)=>setmail(e.target.value)}type="text" className=" text-xl bg-gray-950 text-white " placeholder="username"/>
+        <input value={Password} onChange={(e)=>SetPassword(e.target.value)}type="password" className="text-xl bg-gray-950 text-white" placeholder="password" />
         <br />
         <button type="button" className="bg-gray-900 text-white p-3 rounded-3xl" onClick={loginUser}>LOG IN</button>
         </form>

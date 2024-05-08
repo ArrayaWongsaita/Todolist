@@ -1,3 +1,12 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
 # React Assessment : My Todo / Movie List (CC17)
 
 ### Overview
@@ -82,43 +91,43 @@ async function getMe() {
 
 ### 1A : Project Setup (10pts)
 
-- [ ] Create Project with Create React App or ViteJs
-- [ ] Clean up unused files and code
-- [ ] Install dependencies or packages that you need for this project
-- [ ] Pick some CSS Framework and Install eg. Bootstrap, Tailwind, Scss, Vanilla css or MUI
-- [ ] Setup Well-organized Folder Structure
-- [ ] Using Git and Github for Version Control System
-- [ ] Using Comand Line for run project
+- [x] Create Project with Create React App or ViteJs
+- [x] Clean up unused files and code
+- [x] Install dependencies or packages that you need for this project
+- [x] Pick some CSS Framework and Install eg. Bootstrap, Tailwind, Scss, Vanilla css or MUI
+- [x] Setup Well-organized Folder Structure
+- [x] Using Git and Github for Version Control System
+- [x] Using Comand Line for run project
 
 ### 1B : Build UI with React Component (20pts)
 
-- [ ] Understand UI Design and UI Flow (Figma)
-- [ ] Write Clean & Reausable UI
-- [ ] Good Naming for Component
-- [ ] Manage UI state appropriately
+- [x] Understand UI Design and UI Flow (Figma)
+- [x] Write Clean & Reausable UI
+- [x] Good Naming for Component
+- [x] Manage UI state appropriately
 
 ### 1C : Precise UI with Design (20pts)
 
-- [ ] Precise UI : Login Page
-- [ ] Precise UI : Todo Page
+- [x] Precise UI : Login Page
+- [x] Precise UI : Todo Page
 
 ## Part-2 : Feature and Logic (50pts)
 
 ### 2A : Auth and Login (15pts)
 
-- [ ] Login with email and password
-- [ ] Can submit form with Enter key or Button
-- [ ] Implement State Management for Login Page
-- [ ] Connect to API
-- [ ] Can Login
+- [x] Login with email and password
+- [x] Can submit form with Enter key or Button
+- [x] Implement State Management for Login Page
+- [x] Connect to API
+- [x] Can Login
 
 ### 2B : List Manipulate (35pts)
 
-- [ ] Show List when Render Page (State Management & API)
-- [ ] Can Create List item (State Management & API)
-- [ ] Can Update List item (State Management & API)
-- [ ] Can Delete List item (State Management & API)
-- [ ] Can Logout (State Management & API)
+- [x] Show List when Render Page (State Management & API)
+- [x] Can Create List item (State Management & API)
+- [x] Can Update List item (State Management & API)
+- [x] Can Delete List item (State Management & API)
+- [x] Can Logout (State Management & API)
 
 #### suggestion
 
@@ -127,35 +136,35 @@ async function getMe() {
 
 ## Part-3 : Bonus (0-100pts)
 
-- [ ] Implement Validation in Login Page (10pts)
-- [ ] Implement Validation in Todo Page (10pts)
-- [ ] Feature Register and Register Page(20pts)
-- [ ] Using Context API for State Management (20pts)
-- [ ] Using React Router for Routing (10pts)
-- [ ] New Feature or Amazing UI (Depend on your creativity) (15pts)
-- [ ] Deploy to Vercel or Netlify (15pts)
+- [x] Implement Validation in Login Page (10pts)
+- [x] Implement Validation in Todo Page (10pts)
+- [x] Feature Register and Register Page(20pts)
+- [x] Using Context API for State Management (20pts)
+- [x] Using React Router for Routing (10pts)
+- [x] New Feature or Amazing UI (Depend on your creativity) (15pts)
+- [x] Deploy to Vercel or Netlify (15pts)
 - paste your link here
 
 ## Part-4 : Become Extraordinary Developer (100pts)
 
 ### Clean Code
 
-- [ ] DRY (Don't Repeat Yourself)
-- [ ] SOLID (S : Single Responsibility Principle)
-- [ ] Avoid Big Component
-- [ ] Avoid Magic Value (Hard Code)
-- [ ] Readable Code
-- [ ] Good Naming for Variable, Function, Component, etc.
-- [ ] Good Commenting
-- [ ] Implement React Design Pattern and Avoid Anti Pattern
-- [ ] Use Async Await instead of Promise then catch
-- [ ] Well-organized Folder Structure
-- [ ] Well-organized Git Commit Message
+- [x] DRY (Don't Repeat Yourself)
+- [x] SOLID (S : Single Responsibility Principle)
+- [x] Avoid Big Component
+- [x] Avoid Magic Value (Hard Code)
+- [x] Readable Code
+- [x] Good Naming for Variable, Function, Component, etc.
+- [x] Good Commenting
+- [x] Implement React Design Pattern and Avoid Anti Pattern
+- [x] Use Async Await instead of Promise then catch
+- [x] Well-organized Folder Structure
+- [x] Well-organized Git Commit Message
 
 ## Part-5 : Instinct (50pts)
 
-- [ ] Protect Routed
-- [ ] Auto Redirect or Login  
+- [x] Protect Routed
+- [x] Auto Redirect or Login  
        Hint : using Local storage for token
 
 # Can and Can't
@@ -164,4 +173,3 @@ async function getMe() {
 - Don't AI , Don't Copy , Don't Cheat
 - Don't use other code from other project (COPY PASTE)
 - You can asking for discussion (not solution)
-

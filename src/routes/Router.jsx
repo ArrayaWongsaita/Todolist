@@ -12,10 +12,10 @@ const router = createBrowserRouter([
 
 
 
-function Router() {
+function RouterFn() {
   return (
     <RouterProvider router={router}/>
   )
 }
 
-export default Router
+export default RouterFn

@@ -8,7 +8,7 @@ function TodoListItem({item , deleteData, PostDataStatus}) {
       <div className="flex justify-between gap-3">
         <div className="flex flex-grow">
           <input  checked={item.status} onChange={()=>PostDataStatus(item.id,  !item.status,  item.title)}  type="checkbox" className=" bg-gray-700 mr-2" />
-          <p className={` flex-grow text-white`} >{item?.title}</p>
+          <p style={{ textDecoration: item.status? "line-through":"none"}} className={` flex-grow text-white`}  >{item?.title}</p>
         </div>
         <button onClick={()=>deleteData(item.id)} className="text-white">X</button>
       </div>

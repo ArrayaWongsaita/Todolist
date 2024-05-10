@@ -1,16 +1,19 @@
+/* eslint-disable react/prop-types */
+// context.js
 import { createContext, useState } from "react";
 
-export const LoinContext = createContext()
+const LoginContext = createContext();
 
-
-
-
-function LogintContextProvider({children}) {
-  const [test, settest] = useState("")
-  const [test1, settest1] = useState("")
+export default function LoginContextFN({ children }) {
+  const [key, setKey] = useState("");
+  function alrhellow(){
+    alert("hellow")
+  }
   return (
-  <LoinContext.Provider value={{test,test1}}>{children}</LoinContext.Provider>
-  )
+    <LoginContext.Provider value={{ alrhellow, key, setKey }}>
+      {children}
+    </LoginContext.Provider>
+  );
 }
 
-export default  LogintContextProvider
+export { LoginContext };

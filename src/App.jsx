@@ -1,21 +1,17 @@
-import { Router } from "react-router-dom"
+// App.js
 
 
-
+import RouterFn from "./routes/Router";
+import LoginContextProvider from "./Usecontext/context";
 
 function App() {
-
-
-
-
   return (
+    <LoginContextProvider>
 
+        <RouterFn/>
 
-
-      <Router/>
-
-
-  )
+    </LoginContextProvider>
+  );
 }
 
-export default App
+export default App;

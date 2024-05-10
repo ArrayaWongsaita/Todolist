@@ -8,6 +8,7 @@ function TodoListInput({PostData}) {
     if(e.key === "Enter"){
       PostData(inputValue)
       setInputValue("") 
+      
     }
   }
   return (
